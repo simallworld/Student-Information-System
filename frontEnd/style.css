@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #1f4037; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(fonts/HelveticaNeueLTProUltLtEx.otf);
+}
+
+.container{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#banner{
+    padding: 10px 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1.00);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #99f2c8;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1.00);
+}
+
+#form_container{
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 1.00);
+    border-radius: 7px;
+    margin-top: 70px;
+    text-align: left;
+    width: 50%;
+    transition: 0.5s;
+}
+#form_container:hover{
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 1.00);
+    border-radius: 7px;
+    margin-top: 70px;
+    text-align: left;
+    width: 50%;
+    box-shadow: 0px 0px 20px #99f2c8;
+    transition: 0.3s;
+}
+
+#form_container h3{
+    padding: 5px 5px;
+    color: #99f2c8;
+    text-align: center ;
+}
+
+#form_container table{
+    margin: 0px auto;
+    border: none;
+    color: #99f2c8;
+}
+
+input, select, textarea{
+    border: 1px solid #99f2c8;
+    background-color: transparent;
+    color: #99f2c8;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+input:hover, select:hover, textarea:hover{
+    background-color: #99f2c8;
+    color: black;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    font-size: 13px;
+    transition: 0.4s;
+    box-shadow: 0px 0px 5px #99f2c8;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    border: 1px solid #99f2c8;
+    width: 250px;
+}
+
+#footer{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 10px 0px;
+    position: fixed;
+    bottom: 0;
+    color: #99f2c8;
+    background-color: black;
+    text-align: center;
+}
+
+.register_here{
+    font-size: 12px;
+    color: rgb(135, 135, 135);
+}
+
+a.link:link, a.link:active, a.link:visited{
+    text-decoration: none;
+    color: #70ab90;
+    transition: 0.3s;
+}
+
+a.link:hover{
+    text-decoration: none;
+    color: #99f2c8;
+    transition: 0.3s;
+}
+
+#form_container img{
+    border: 5px solid wheat;
+}
+
+a.footerstyle:link,a.footerstyle:active,a.footerstyle:visited
+{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #99f2c8;
+    transition: 0.5s;
+}
+
+a.footerstyle:hover
+{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #008145;
+    transition: 0.5s;
+}
+
+.studentData{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #99f2c8;
+}
+.studentData td{
+    font-size: 11px;
+}
